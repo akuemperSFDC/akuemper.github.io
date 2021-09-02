@@ -1,151 +1,359 @@
 <!DOCTYPE html>
 <!--
-	Solid State by HTML5 UP
+	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
   <head>
-    <title>Austin Kuemper</title>
+    <title>Stellar by HTML5 UP</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <meta name="description" content="portfolio" />
-    <meta name="title" property="og:title" content="portfolio" />
-    <meta property="og:type" content="Website" />
-    <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51404850053_d9947cff5f_b.jpg"  />
-    <meta name="description" property="og:description" content="portfilio showcase" />
-    <meta name="author" content="Austin Kuemper" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"
+    />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
   </head>
   <body class="is-preload">
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
+    <!-- Wrapper -->
+    <div id="wrapper">
       <!-- Header -->
-      <header id="header" class="alt">
-        <h1><a href="/">Home</a></h1>
-        <nav>
-          <a href="#menu">Menu</a>
-        </nav>
-      </header>
+      <!-- <header id="header" class="alt">
+        <span class="logo"><img src="images/logo.svg" alt="" /></span>
+        <h1>Hi. I'm Austin.</h1>
+        <p>FULL STACK SOFTWARE ENGINEER</p>
+      </header> -->
 
-      <!-- Menu -->
-      <nav id="menu">
-        <div class="inner">
-          <h2>Menu</h2>
-          <ul class="links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/skills">Skills</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="../resume/Austin_Kuemper_Resume.pdf" download="austin_kuemper_resume">Resume</a></li>
-            <li><a href="https://github.com/AKuemper">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/austinkuemper/">LinkedIn</a></li>
-            <li><a href="https://angel.co/u/austin-kuemper">AngelList</a></li>
-          </ul>
-          <a href="#" class="close">Close</a>
-        </div>
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#first">Projects</a></li>
+          <li><a href="#second">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
       </nav>
 
-      <!-- Banner -->
-      <section id="banner">
-        <div class="inner">
-          <div class="logo"><span class="fas fa-laptop-code fa-3x"></span></div>
-          <h2>Hi, I'm Austin.</h2>
-          <p>Full Stack Software Engineer</p>
-        </div>
-      </section>
-
-      <!-- Wrapper -->
-      <section id="wrapper">
-        <!-- One -->
-        <section id="one" class="wrapper spotlight style1">
-          <div class="inner">
-            <a href="/about" class="image"
-              ><img src="images/IMG_3576.JPG" alt=""
-            /></a>
+      <!-- Main -->
+      <div id="main">
+        <!-- Introduction -->
+        <section id="about" class="main">
+          <div class="spotlight">
             <div class="content">
-              <h2 class="major">About Me</h2>
+              <header class="major">
+                <h2>
+                  Hi! I'm Austin 👋
+                  <h3>FULL STACK SOFTWARE ENGINEER</h3>
+                </h2>
+              </header>
               <p>
-								Learn more about me, what I do, and my interests.
-							</p>
-              <a href="/about" class="special">Go To About</a>
-            </div>
-          </div>
-        </section>
-
-        <!-- Two -->
-        <section id="two" class="wrapper alt spotlight style2">
-          <div class="inner">
-            <a href="/skills/" class="image"><img src="images/skills.png" alt="" /></a>
-            <div class="content">
-              <h2 class="major">My Skills</h2>
-              <p>
-                Check out the languages I've learned and the technologies I use.
+                I'm a passionate software developer with a love for getting
+                things as close to 'perfect' as I can. I have experience
+                building dynamic web applications in both Javascript and Python,
+                as well as with the technologies of React, Redux, GitHub,
+                Express, Flask, SQL, Sequelize, and SQLAlchemy. I thoroughly
+                enjoy problem-solving, outlets for creativity, and (almost) all
+                genres of music. As a self-proclaimed audiophile, I can geek out
+                and talk about audio gear for hours.
               </p>
-              <a href="/skills/" class="special">Go To Skills</a>
+              <ul class="actions">
+                <li>
+                  <a
+                    href="/resume/Austin_Kuemper_Resume.pdf"
+                    target="_blank"
+                    class="primary button"
+                    >Download Resume</a
+                  >
+                </li>
+              </ul>
             </div>
+            <span class="image"><img src="images/IMG_3576.JPG" alt="" /></span>
           </div>
         </section>
 
-        <!-- Three -->
-        <section id="three" class="wrapper spotlight style3">
-          <div class="inner">
-            <a href="/projects" class="image"><img src="images/projects-collage.png" alt="" /></a>
-            <div class="content">
-              <h2 class="major">Projects</h2>
+        <!-- First Section -->
+        <section id="first" class="main special">
+          <header class="major">
+            <h2>Projects</h2>
+          </header>
+          <ul class="features">
+            <li>
+              <span class="icon major style3"
+                ><a
+                  href="https://staybnb2.herokuapp.com/"
+                  target="_blank"
+                  class="ak_link"
+                  ><img
+                    class="ak_image"
+                    src="/images/staybnbGif2.gif"
+                    alt="" /></a
+              ></span>
+              <h3>
+                <a
+                  class="ak_link2"
+                  href="https://staybnb2.herokuapp.com/"
+                  target="_blank"
+                  >Staybnb</a
+                >
+                |
+                <a
+                  class="ak_link2"
+                  href="https://github.com/AKuemper/staybnb"
+                  target="_blank"
+                  ><i class="devicon-github-original ak_github_icon"></i>
+                </a>
+              </h3>
               <p>
-                Showcase of my currently finished projects.
+                A web app inspired by the peer-to-peer marketplace app, Airbnb.
               </p>
-              <a href="/projects" class="special">Go To Projects</a>
-            </div>
-          </div>
+            </li>
+            <li>
+              <span class="icon major style3"
+                ><a
+                  href="https://spartner.herokuapp.com/"
+                  target="_blank"
+                  class="ak_link"
+                  ><img
+                    class="ak_image"
+                    src="/images/spartnerGif.gif"
+                    alt="" /></a
+              ></span>
+              <h3>
+                <a
+                  href="https://spartner.herokuapp.com/"
+                  target="_blank"
+                  class="ak_link2"
+                  >Spartner</a
+                >
+                |
+                <a
+                  class="ak_link2"
+                  href="https://github.com/Jubintgh/Spartner"
+                  target="_blank"
+                  ><i class="devicon-github-original ak_github_icon"></i>
+                </a>
+              </h3>
+              <p>
+                A web app inspired by the online dating service, OkCupid. Aimed
+                at matching UFC fighters with other UFC fighters and/or coaches.
+              </p>
+            </li>
+            <li>
+              <span class="icon major style3"
+                ><a
+                  href="https://ak-wonder.herokuapp.com/"
+                  target="_blank"
+                  class="ak_link"
+                  ><img
+                    class="ak_image"
+                    src="/images/wonderGif.gif"
+                    alt="" /></a
+              ></span>
+              <h3>
+                <a
+                  href="https://ak-wonder.herokuapp.com/"
+                  target="_blank"
+                  class="ak_link2"
+                  >Wonder</a
+                >
+                |
+                <a
+                  class="ak_link2"
+                  href="https://github.com/AKuemper/wonder"
+                  target="_blank"
+                  ><i class="devicon-github-original ak_github_icon"></i>
+                </a>
+              </h3>
+              <p>A web app inspired by the question and answer app, Quora.</p>
+            </li>
+          </ul>
+          <!-- <footer class="major"> -->
+          <!-- <ul class="actions special">
+              <li><a href="generic.html" class="button">Learn More</a></li>
+            </ul> -->
+          <!-- </footer> -->
         </section>
+
+        <!-- Second Section -->
+        <section id="second" class="main special">
+          <header class="major">
+            <h2>Skills</h2>
+            <p>
+              The languages I've learned and the technologies I currently use.
+            </p>
+          </header>
+          <ul class="statistics">
+            <li class="style1">
+              <span class="icon solid">
+                <i
+                  class="skill-icon devicon-javascript-plain"
+                  alt="JavaScript"
+                ></i>
+                <p>JavaScript</p>
+                <i class="skill-icon devicon-python-plain" alt="Python"></i>
+                <p>Python</p>
+                <i class="skill-icon devicon-nodejs-plain" alt="NodeJS"></i>
+                <p>NodeJS</p>
+              </span>
+            </li>
+            <li class="style2">
+              <span class="icon solid">
+                <i class="skill-icon devicon-react-original" alt="React"></i>
+                <p>React</p>
+                <i class="skill-icon devicon-redux-original" alt="Redux"></i>
+                <p>Redux</p>
+                <i class="skill-icon devicon-heroku-original" alt="Heroku"></i>
+                <p>Heroku</p>
+              </span>
+            </li>
+            <li class="style3">
+              <span class="icon solid">
+                <i class="skill-icon devicon-html5-plain" alt="HTML5"></i>
+                <p>HTML5</p>
+                <i class="skill-icon devicon-css3-plain" alt="CSS3"></i>
+                <p>CSS3</p>
+                <i class="skill-icon devicon-docker-plain" alt="Docker"></i>
+                <p>Docker</p>
+              </span>
+            </li>
+            <li class="style4">
+              <span class="icon solid">
+                <i
+                  class="skill-icon devicon-postgresql-plain"
+                  alt="PostgreSQL"
+                ></i>
+                <p>PostgreSQL</p>
+                <i
+                  class="skill-icon devicon-express-original"
+                  alt="ExpressJS"
+                ></i>
+                <p>ExpressJS</p>
+                <i
+                  class="skill-icon devicon-sequelize-plain"
+                  alt="Sequelize"
+                ></i>
+                <p>Sequelize</p>
+              </span>
+            </li>
+            <li class="style5">
+              <span class="icon solid">
+                <i class="skill-icon devicon-flask-original" alt="Flask"></i>
+                <p>Flask</p>
+                <i
+                  class="skill-icon devicon-amazonwebservices-original"
+                  alt="AWS"
+                ></i>
+                <p>AWS</p>
+                <i class="skill-icon devicon-github-original" alt="GitHub"></i>
+                <p>GitHub</p>
+              </span>
+            </li>
+          </ul>
+          <!-- <header class="major">
+            <p>Future technologies to learn</p>
+          </header>
+          <p class="content"></p> -->
+          <!-- <footer class="major">
+            <ul class="actions special">
+              <li><a href="generic.html" class="button">Learn More</a></li>
+            </ul>
+          </footer> -->
+        </section>
+
+        <!-- Get Started -->
+        <section id="resume" class="main special">
+          <header class="major">
+            <h2>Resume</h2>
+          </header>
+          <footer class="major">
+            <ul class="actions special">
+              <li>
+                <a
+                  href="/resume/Austin_Kuemper_Resume.pdf"
+                  target="_blank"
+                  class="button primary"
+                  >Download</a
+                >
+              </li>
+            </ul>
+          </footer>
+        </section>
+      </div>
 
       <!-- Footer -->
-      <section id="footer">
-        <div class="inner">
-          <h2 class="major">Get in touch</h2>
-          <!-- <p>
-            You can reach me by any of the below resources!
-          </p> -->
-          <ul class="contact">
-
-            <li class="icon solid fa-phone">(503) 415-1713</li>
-            <li class="icon solid fa-envelope">
-              <a href="mailto:austinkuemper@gmail.com"
+      <footer id="footer" class="ak_footer">
+        <!-- <section>
+          <h2>Aliquam sed mauris</h2>
+          <p>
+            Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
+            magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris.
+            Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas
+            velit, vitae tincidunt odio.
+          </p>
+          <ul class="actions">
+            <li><a href="generic.html" class="button">Learn More</a></li>
+          </ul>
+        </section> -->
+        <section class="ak_contact">
+          <h2>Get in touch</h2>
+          <dl class="alt">
+            <dt>Email</dt>
+            <dd>
+              <a class="ak_link2" href="mailto:austinkuemper@gmail.com"
                 >austinkuemper@gmail.com</a
               >
+            </dd>
+            <dt>Phone</dt>
+            <dd>(503) 415-1713</dd>
+            <dt>Location</dt>
+            <dd>Portland, Oregon</dd>
+          </dl>
+          <ul class="icons">
+            <li>
+              <a
+                class="icon brands fa-github alt"
+                href="https://github.com/AKuemper"
+                target="_blank"
+                ><span class="label">GitHub</span></a
+              >
             </li>
-            <li class="icon brands fa-github">
-              <a href="https://github.com/AKuemper" target="_blank">Github</a>
+            <li>
+              <a
+                class="icon brands fa-linkedin alt"
+                href="https://www.linkedin.com/in/austinkuemper/"
+                target="_blank"
+                ><span class="label">LinkedIn</span></a
+              >
             </li>
-            <li class="icon brands fa-linkedin">
-              <a href="https://www.linkedin.com/in/austinkuemper/" target="_blank">LinkedIn</a>
-            </li>
-            <li class="icon brands fa-angellist">
-              <a href="https://angel.co/u/austin-kuemper" target="_blank">AngelList</a>
-            </li>
-            <li class="icon solid fa-home">
-             Portland, Oregon
+            <li>
+              <a
+                class="icon brands fa-angellist alt"
+                href="https://angel.co/u/austin-kuemper"
+                target="_blank"
+                ><span class="label">AngelList</span></a
+              >
             </li>
           </ul>
-          <ul class="copyright">
-            <li>&copy; Austin Kuemper Inc. All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          </ul>
-        </div>
-      </section>
+        </section>
+        <p class="copyright">
+          &copy; Austin Kuemper Inc. All rights reserved. | Design:
+          <a class="ak_link2" href="https://html5up.net">HTML5 UP</a>.
+        </p>
+      </footer>
     </div>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
